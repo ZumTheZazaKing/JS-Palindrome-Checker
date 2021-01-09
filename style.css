@@ -1,0 +1,100 @@
+.hidden{
+
+    visibility: hidden;
+
+}
+
+.yes{
+
+    color: green;
+
+}
+
+.no{
+
+    color: red;
+
+}
+
+/*Actual styles after this point*/
+
+
+html{
+
+    overflow: auto;
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+
+}
+
+#container{
+
+    text-align: center;
+    background-color: #fff;
+    margin-top: 10%;
+    padding: 20px 40px;
+    border-radius: 25px;
+
+}
+
+#title{
+
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#desc{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#userWord{
+
+    background-color: aliceblue;
+    border: 2px solid black;
+    outline: none;
+    height: 40px;
+    width: 400px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+#check{
+
+    font-size: 28px;
+    background-color: grey;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .2s ease-in;
+
+}
+
+#check:hover{
+    color: white;
+}
+
+#result{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}

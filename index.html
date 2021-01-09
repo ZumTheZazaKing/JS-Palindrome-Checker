@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Palindrome Checker</title>
+</head>
+<body>
+
+    <div id="container">
+        <p id="title">Palindrome Checker</p>
+        <p id="desc">
+        Palindromes are words or phrases that read the same backwards and forwards.<br>
+        Let's see if the following is a palindrome or not!<br><br>
+        (Please remove all non-alpha characters such as '?', ' "" ' and '!')<br>
+        (Integers are allowed but not decimals and negative integers)
+        </p>
+
+        <input type="text" id="userWord">
+
+        <p id="result" class="hidden">Sample Text</p>
+
+        <button id="check" onclick="check()">Check!</button>
+    </div>
+    
+</body>
+</html>
